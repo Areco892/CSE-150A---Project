@@ -1,4 +1,4 @@
-# CSE-150A---Project
+# CSE 150A---Project
 Utility Based AI Agent
 
 In this project, we will design a traffic control system using a utility-based agent that will help us optimize the flow of traffic. 
