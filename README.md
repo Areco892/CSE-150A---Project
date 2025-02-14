@@ -2,13 +2,14 @@
 Utility Based AI Agent
 Alexander Huang
 
-Abstract
+In this project, we will design a traffic control system using a utility-based agent that will help us optimize the flow of traffic. 
+The environment would be modeled using an HMM, where previous data will help us predict future traffic movement, allowing us to optimize the flow of traffic. 
+The agent will have the following parameters:
+- Performance measure: minimization of traffic congestion, maximize traffic flow.
+- Environment: urban road network.
+- Actuators: traffic lights, pedestrian signals.
+- Sensors: cameras, public transport data.
 
-In this project, we will explore how useful a utility based AI agent could be. This type of agent is especially useful when looking for the best option given certain parameters. So, our utility based AI agent will have the following descriptions.
-Performance measure: its ability to find the best fit for given specifications. 
-Environment will be datasets provided by the Internet (specifically found in kaggle.com)
-Actuators: Text-based responses with the best fit 
-Sensors: Probability algorithms, most likely using Bayes’ Rule, Marginalization, etc…
-
-Data sets used: 
-The Ultimate Cars Dataset 2024 - https://www.kaggle.com/datasets/abdulmalik1518/the-ultimate-cars-dataset-2024
+Traffic Prediction Datasets:
+https://www.kaggle.com/datasets/hasibullahaman/traffic-prediction-dataset
+https://www.kaggle.com/datasets/fedesoriano/traffic-prediction-dataset
