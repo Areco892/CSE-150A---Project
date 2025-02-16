@@ -1,0 +1,54 @@
+# Basic Overview of the Data
+def data_overview(df):
+    print("Data Shape:", df.shape)  # number of rows and columns
+    print("\nData Info:")
+    df.info()  # General info about data types and memory usage
+    print("\nData Description:")
+    print(df.describe(include='all'))  # Summary statistics for numeric and categorical columns
+
+# Missing Data Analysis
+def missing_data(df):
+    missing = df.isnull().sum()
+    missing_percentage = (missing / len(df)) * 100
+    missing_data = pd.DataFrame({'Missing Values': missing, 'Percentage': missing_percentage})
+    print("\nMissing Data Info:")
+    print(missing_data[missing_data['Missing Values'] > 0].sort_values(by='Percentage', ascending=False))
+
+# Data Distribution and Outlier Analysis (Numerical Columns)
+def data_distribution(df):
+    numeric_columns = df.select_dtypes(include=[np.number]).columns
+    print("\nDistribution of Numeric Columns:")
+    
+    for col in numeric_columns:
+        plt.figure(figsize=(10, 4))
+        sns.histplot(df[col], kde=True, bins=30)
+        plt.title(f'Distribution of {col}')
+        plt.show()
+
+# Correlation Analysis (for numerical columns)
+def correlation_matrix(df):
+    numeric_columns = df.select_dtypes(include=[np.number]).columns
+    corr = df[numeric_columns].corr()
+    
+    plt.figure(figsize=(10, 6))
+    sns.heatmap(corr, annot=True, cmap='coolwarm', fmt='.2f', linewidths=0.5)
+    plt.title('Correlation Matrix')
+    plt.show()
+
+# Scales of Features: Check for skewness and normalization requirements
+def feature_scales(df):
+    numeric_columns = df.select_dtypes(include=[np.number]).columns
+    skewness = df[numeric_columns].skew()
+    print("\nSkewness of Numeric Columns:")
+    print(skewness)
+    
+    # Identifying if scaling might be necessary
+    print("\nColumns with skewness > 1 (might require normalization):")
+    print(skewness[skewness > 1])
+
+# Running the data exploration functions
+data_overview(df)
+missing_data(df)
+data_distribution(df)
+correlation_matrix(df)
+feature_scales(df)
