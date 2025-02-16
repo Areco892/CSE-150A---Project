@@ -21,9 +21,10 @@ The agent will have the following parameters (in terms of PEAS):
 - Actuators: traffic lights, pedestrian signals.
 - Sensors: cameras, public transport data.
 
-For simplicity, there were a lot of assumptions made in the agent's "world". For example, it is assumed the roads are in perfect condition (e.g. no potholes), and also that there are no vehicle accidents. This allows the agent to just focus on how the traffic condition (low traffic, normal traffic, heavy traffic) was based on how many cars were at the intersection/near traffic stops at given time intervals (15 minutes for our data). 
-A way we can relate our agent to probabilistic modeling is we are using previous observations (evidence/data collected about how traffic looks like) in order to predict the most probable sequence of traffic conditions (hidden states). So, a model that would work great here would be a Hidden Markov Model.
-Note: For convenience, there are only 3 hidden states. The data provided us with 4 traffic situations (low, normal, high, heavy). For this model, we will combine normal and high into just normal. So, the three hidden states for this model are low, normal, heavy.
+Agent Description and Probabilistic Modeling
+For simplicity, there were a lot of assumptions made in the agent's "world". For example, it is assumed the roads are in perfect condition (e.g. no potholes), and also that there are no vehicle accidents. This allows the agent to just focus on how the traffic condition (low traffic, normal traffic, heavy traffic) was based on how many cars were at the intersection/near traffic stops at given time intervals (15 minutes for our data). Note: For convenience, there are only 3 hidden states. The data provided us with 4 traffic situations (low, normal, high, heavy). For this model, we will combine normal and high into just normal. So, the three hidden states for this model are low, normal, heavy.
+
+A way we can relate our agent to probabilistic modeling is we are using previous observations (evidence/data collected about how traffic looks like) in order to predict the most probable sequence of traffic conditions (hidden states). So, a probabilistic model that would work great here would be a Hidden Markov Model.
 
 Training first model
 
