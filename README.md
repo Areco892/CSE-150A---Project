@@ -1,7 +1,6 @@
 # CSE 150A---Project
 
-----------------------------------------------------------------------MILESTONE #1----------------------------------------------------------------------
-
+--------------------------------------------------------MILESTONE #1---------------------------------------------------------
 Abstract
 
 In this project, we will design a traffic control system using a utility-based agent that will help us optimize the flow of traffic. 
@@ -12,7 +11,7 @@ Traffic Prediction Datasets:
 - https://www.kaggle.com/datasets/hasibullahaman/traffic-prediction-dataset
 - https://www.kaggle.com/datasets/fedesoriano/traffic-prediction-dataset
 
-----------------------------------------------------------------------MILESTONE #2----------------------------------------------------------------------
+--------------------------------------------------------MILESTONE #2---------------------------------------------------------
 
 Agent Description
 
