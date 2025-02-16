@@ -1,2 +1,0 @@
-For this model, the traffic flow will assume clear weather, no accidents, perfect road conditions.
-The only factors taken into account will be time of the day, traffic volume, type of vehicle.
