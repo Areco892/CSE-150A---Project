@@ -14,7 +14,7 @@ Traffic Prediction Datasets:
 
 ----------------------------------------------------------------------MILESTONE #2----------------------------------------------------------------------
 
-The agent is a Utility Based AI Agent, which will help us optimize the flow of traffic.
+The agent is a Utility Based AI Agent, which will try to optimize the flow of traffic.
 The agent will have the following parameters (in terms of PEAS):
 - Performance measure: minimization of traffic congestion, maximize traffic flow.
 - Environment: urban road network.
@@ -26,9 +26,11 @@ A way we can relate our agent to probabilistic modeling is we are using previous
 Note: For convenience, there are only 3 hidden states. The data provided us with 4 traffic situations (low, normal, high, heavy). For this model, we will combine normal and high into just normal. So, the three hidden states for this model are low, normal, heavy.
 
 Training first model
+
 In order to train the first model, we first gathered data from the datasets mentioned previously. We then proceed to preprocess and gather all the data pertaining our goal. In this case, we are interested in the total number of vehicles (cars, buses, trucks, bikes) per 15 minutes and the traffic situation at that given time interval. Then to train our model, we implement viterbi's algorithm to find the most probable path given the evidence. 
 
 Evaluating first model
+
 To evaluate our model, we observe how accurate our model predicts a given path. In order to do so, we calculate can Viterbi path accuracy. We get the number of correctly predicted state sequences and divide it by the total number of states.
 
 Conclusion:
