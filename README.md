@@ -37,5 +37,6 @@ Evaluating first model
 
 To evaluate our model, we observe how accurate our model predicts a given path. In order to do so, we calculate can Viterbi path accuracy. We get the number of correctly predicted state sequences and divide it by the total number of states.
 
-Conclusion:
+Conclusion
+
 Although far from functional in the real world, the agent gives us an idea of how to optimize the traffic system under idealistic conditions. Since different factors usually lead to different traffic conditions, an improvement will be to consider days of the week and the time of the day. For exapmle, people going to work during weekdays greatly affect traffic, as well as, the time of the day (e.g. getting to work or coming from work).
