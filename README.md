@@ -1,6 +1,6 @@
 # CSE 150A---Project
 
-MILESTONE #1
+----------------------------------------------------------------------MILESTONE #1----------------------------------------------------------------------
 
 Abstract
 
@@ -12,7 +12,7 @@ Traffic Prediction Datasets:
 - https://www.kaggle.com/datasets/hasibullahaman/traffic-prediction-dataset
 - https://www.kaggle.com/datasets/fedesoriano/traffic-prediction-dataset
 
-MILESTONE #2
+----------------------------------------------------------------------MILESTONE #2----------------------------------------------------------------------
 
 The agent is a Utility Based AI Agent, which will help us optimize the flow of traffic.
 The agent will have the following parameters (in terms of PEAS):
