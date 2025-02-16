@@ -15,6 +15,7 @@ Traffic Prediction Datasets:
 ----------------------------------------------------------------------MILESTONE #2----------------------------------------------------------------------
 
 Agent Description
+
 The agent is a Utility Based AI Agent, which will try to optimize the flow of traffic.
 The agent will have the following parameters (in terms of PEAS):
 - Performance measure: minimization of traffic congestion, maximize traffic flow.
