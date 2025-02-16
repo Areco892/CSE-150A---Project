@@ -1,3 +1,6 @@
+In order to preprocess the data, I asked ChatGPT to provide me a template.
+
+Answer:
 # Basic Overview of the Data
 def data_overview(df):
     print("Data Shape:", df.shape)  # number of rows and columns
