@@ -1,7 +1,7 @@
 # CSE 150A---Project
 Link to Github: https://github.com/Areco892/CSE-150A---Project.git
 
-Link pertainig to Milestone #2:
+Links related to Milestone #2:
 
 Preprocessing and CPTs: https://github.com/Areco892/CSE-150A---Project/blob/main/Preprocessing.py
 
