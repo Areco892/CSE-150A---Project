@@ -4,6 +4,7 @@ Link to Github: https://github.com/Areco892/CSE-150A---Project.git
 Links related to Milestone #2:
 
 Update for Resubmission: (all code aggregated into one single file)
+
 Model #1:               https://github.com/Areco892/CSE-150A---Project/blob/main/Model%201.py
 
 Dataset:                https://github.com/Areco892/CSE-150A---Project/blob/main/Traffic.csv
