@@ -3,13 +3,9 @@ Link to Github: https://github.com/Areco892/CSE-150A---Project.git
 
 Links related to Milestone #2:
 
-Preprocessing and CPTs: https://github.com/Areco892/CSE-150A---Project/blob/main/Preprocessing.py
+Model #1: https://github.com/Areco892/CSE-150A---Project/blob/main/Model%201.py
 
 Dataset:                https://github.com/Areco892/CSE-150A---Project/blob/main/Traffic.csv
-
-Training:               https://github.com/Areco892/CSE-150A---Project/blob/main/HMM.py
-
-Evaluator:              https://github.com/Areco892/CSE-150A---Project/blob/main/Model%20%231.py
 
 Credits:                https://github.com/Areco892/CSE-150A---Project/blob/main/CREDITS.txt
 
